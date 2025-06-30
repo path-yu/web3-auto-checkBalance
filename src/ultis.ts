@@ -1,8 +1,6 @@
 // utils/getDirname.ts
 import { fileURLToPath } from "url";
 import path from "path";
-import { sendGetRequest } from "./request";
-import env from "../env";
 
 // 指定等待休眠
 export const sleep = (ms: number) => {

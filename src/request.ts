@@ -3,7 +3,6 @@ import * as crypto from "crypto";
 import * as querystring from "querystring";
 import env from "../env";
 import { HttpsProxyAgent } from "https-proxy-agent";
-import { api } from "@okxweb3/coin-solana";
 import { sleep } from "./ultis";
 
 // 添加代理配置

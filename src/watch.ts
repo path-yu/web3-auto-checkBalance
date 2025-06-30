@@ -6,7 +6,6 @@ import {
   getChainNameByIndex,
   MatchedTokenInfo,
   TokenAsset,
-  WalletAccountType,
 } from "./wallet";
 import { getAllAccount } from "./db/db";
 
