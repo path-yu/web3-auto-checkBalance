@@ -1,21 +1,17 @@
 # 🪙 Account Balance Monitor
 
-该项目是一个基于 Node.js 的多链钱包余额监控器，支持定时检测账户余额变动并通过 Telegram 通知用户。它可以自动识别账户资产变动、识别新代币，并尝试匹配私钥。
+This project is a Node.js-based multi-chain wallet balance monitor. It periodically checks for changes in wallet balances and notifies the user via Telegram. It can detect balance changes, recognize newly received tokens, and attempt to match the private key for each token.
 
 ---
 
-## 📦 功能特性
+## 📦 Features
 
-- ✅ 自动从 OKX API 获取账户余额和资产
-- 🔀 随机化请求，避免触发风控
-- 👥 支持多账户余额监听
-- 📈 检测余额变化（金额变动 > 1 USD）
-- 🪙 检测新接收代币（价值 > 1 USD）
-- 🔐 自动匹配代币地址对应的私钥
-- 📬 支持 Telegram 通知提醒
-- 💾 使用 LowDB 持久化账户余额
-
----
-
-## 📁 项目结构
+- ✅ Automatically fetches account balances and token assets from OKX API
+- 🔀 Randomized request order to avoid triggering rate limits
+- 👥 Supports multiple account monitoring
+- 📈 Detects balance changes (greater than $1)
+- 🪙 Detects newly received tokens (value > $1)
+- 🔐 Automatically matches private keys based on token address
+- 📬 Sends Telegram notifications
+- 💾 Persists balance data using LowDB (local JSON)
 
