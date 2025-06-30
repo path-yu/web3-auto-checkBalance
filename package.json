@@ -1,0 +1,42 @@
+{
+  "name": "web-auto-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/watch.ts",
+    "clearAccount":"tsx src/script/clearAccount.ts",
+    "initAccount": "tsx src/script/initAccount.ts",
+    "initChatDb": "tsx src/script/initRecordChatIds.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ethersproject/contracts": "^5.8.0",
+    "@ethersproject/providers": "^5.8.0",
+    "@ethersproject/units": "^5.8.0",
+    "@okxweb3/coin-base": "^1.1.3",
+    "@okxweb3/coin-solana": "^1.1.0",
+    "@okxweb3/crypto-lib": "^1.0.11",
+    "@solana/web3.js": "^1.98.2",
+    "bigint-buffer": "^1.1.5",
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0",
+    "cli-progress": "^3.12.0",
+    "colors": "^1.4.0",
+    "ed25519-hd-key": "^1.3.0",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^6.14.4",
+    "https-proxy-agent": "^7.0.6",
+    "lowdb": "^7.0.1",
+    "node-fetch": "^3.3.2",
+    "node-gyp": "^11.2.0",
+    "ton-crypto": "^3.2.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}
